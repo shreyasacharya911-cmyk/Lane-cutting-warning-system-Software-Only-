@@ -1,0 +1,16 @@
+system:
+  loop_rate_hz: 20
+  timeout_ms: 100
+
+radar:
+  max_range_m: 50.0
+  min_range_m: 0.5
+  fov_deg: 120.0
+  timeout_s: 0.2
+
+lca:
+  ttc_high_risk_threshold_s: 1.5
+  ttc_medium_risk_threshold_s: 2.5
+  lane_width_m: 3.5
+  lateral_warning_distance_m: 1.0
+  hysteresis_frames: 3
